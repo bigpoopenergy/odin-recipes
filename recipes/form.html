@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satsifcation form</title>
+</head>
+<body>
+    <fieldset> 
+        <legend> First, let's steal your data to send to the CCP</legend>
+            <label for="name"> Your name:</label>
+            <input type="text" name="name" id="name" placeholder="insert your name"> 
+
+            <labelfor="age"> Your age> </labelfor>
+            <input type="number" step="1" min="1" max="99" id="age" name="age" placeholder="type a number in">
+
+    </fieldset>
+
+    <fieldset> 
+        <legend> Your opinion on the recipes</legend>
+            <label for="best"> Favourite recipe </label>
+            <datalist id="best" name="best">
+                <option value="Olive-oil"> Olive Oil Ice cream</option>
+                <option value="Kay">Kay-s fried rice</option>
+                <option value="Olive"> Deconstrcuted Olive </option>
+            </datalist>
+
+            <label for="hell">Do you feel ready to go on hell's kitchen now?</label>
+            <input type="text" id="hell" name="hell" list="hellskitchen"> 
+                <datalist id="hellskitchen">
+                    <option value="yes"> Yes</option>
+                    <option value="no">No</option>
+                </datalist>
+        </fieldset>  
+        <fieldset>    
+            <legend> Favourite thing about the recipe you just obviously and quite clearly made> </legend> 
+
+            <label for="easy"> It was easy to make </label>
+            <input type="radio" name="favourite" id="easy" value="easy">
+
+            <label for="taste"> It tasted good </label>
+            <input type="radio" name="favourite" id="taste" value="taste">
+
+            <label for="fun"> It was fun to make </label>
+            <input type="radio" name="favourite" id="fun" value="fun">
+        </fieldset> 
+
+        <fieldset>    
+            <legend> Suggestions </legend> 
+
+            <textarea id="suggestions" name="suggestions" placeholder="type here" rows="5" cols="5"> </textarea>
+
+        </fieldset> 
+        <input type="submit" value="submit"> 
+
+
+   
+</body>
+</html>
